@@ -1,5 +1,19 @@
-<script src="https://theh2006.github.io/ruffle/ruffle.js"></script>
-<div class="swf"dir="ltr" style="text-align: left;" trbidi="on">
-        <embed height="780" pluginspage="http://www.macromedia.com/go/getflashplayer" src="Ducklife4-loaderp.swf" width="890
-"></embed>
+<div class="gamebox" id="gamebox">
+	<script src="https://theh2006.github.io/ruffle/ruffle.js"></script>
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("gamebox");
+		player.style.width = "750px";
+		player.style.height = "480px";
+        container.appendChild(player);
+		player.load({
+			url: "Ducklife4-loaderp.swf", // A string, indicating the SWF file to load (e.g. "movie.swf").
+			parameters: "https://theh2006.github.io/ruffle/swf/duck-life-4-hacked", // Also known as "flashvars", this is a string indicating values that may be passed to and loaded by the movie (e.g. "key1=value1&key2=value2").
+			allowScriptAccess: false, // A boolean indicating whether the file is allowed to interact with the page through JavaScript.
+		});
+    });
+</script>	
 </div>
