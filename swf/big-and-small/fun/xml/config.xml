@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BigAndSmallConfig>
+	<assetFolder id='swf'><![CDATA[../assets/swf/]]></assetFolder>
+	<assetFolder id='3d'><![CDATA[../assets/3d/]]></assetFolder>
+	<assetFolder id='xml'><![CDATA[xml/]]></assetFolder>
+	<assetFolder id='flv'><![CDATA[http://downloads.bbc.co.uk/cbeebies/bigandsmall/game/]]></assetFolder>
+	
+	<errorText><![CDATA[An error has occurred; please try again later...]]></errorText>
+	
+	<assetFile id='videoA'><![CDATA[ep1_doesntmatter_001.flv]]></assetFile>
+	<assetFile id='videoB'><![CDATA[ep2_friendinneed_001.flv]]></assetFile>
+	<assetFile id='videoC'><![CDATA[ep9_givemeyes_001.flv]]></assetFile>
+	<assetFile id='videoD'><![CDATA[ep10_bigmoon_001.flv]]></assetFile>
+	<assetFile id='videoE'><![CDATA[ep11_raindance_001.flv]]></assetFile>
+	<assetFile id='videoF'><![CDATA[ep17_wormsrule_001.flv]]></assetFile>
+	<assetFile id='videoG' note='bathroom wall frame'><![CDATA[ep17_wormsrule_001.flv]]></assetFile>
+	<assetFile id='videoH' note='garden butterfly house'><![CDATA[ep_21_dotheydigit.flv]]></assetFile>
+</BigAndSmallConfig>
